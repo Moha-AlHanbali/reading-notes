@@ -42,10 +42,14 @@ Well, technically, your options are limitless, despite how Markdown Syntax are l
 - [ ] Create!
 - [x] Checklists!
 
-Document and organize your ~~past~~ ***present work*** information!
+Document and organize your ~~past~~ ***present work*** information! 
 
 - In nested lists!
     - And more!
+
+> On your own, or with your team!
+
+ <br>
 
 ## Can I use Markdown Syntax all the time?
 
