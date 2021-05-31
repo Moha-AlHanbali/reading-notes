@@ -9,3 +9,5 @@
 > They shouldn't compare their shortcomings to others' success, instead, they have to look at it as a learning and growth opportunities.
 
 > They need to push themselves to stay positive no matter what the circumstances and stay focused on their main goal.
+
+![Growth Mindset Image](https://i1.wp.com/atlassianblog.wpengine.com/wp-content/uploads/2015/11/growth-mindset.png?w=1101&ssl=1)
