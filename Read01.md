@@ -50,3 +50,15 @@ Document and organize your ~~past~~ ***present work*** information!
 ## Can I use Markdown Syntax all the time?
 
 Note that Markdown Syntax can not fully replace a complete language such as HTML, but it makes your work much fun and easier where it is applicable, should you use it to format and convey your work information accurately.
+
+<br>
+
+## I want to learn more!
+
+You can read more about Markdown Syntax [here!](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
+<br>
+<br>
+You could also watch this to learn more about GitHub Pages!
+
+###### (Click the image to get redirected!)
+[![AA](https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png)](https://youtu.be/2MsN8gpT6jY)
