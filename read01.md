@@ -31,7 +31,7 @@ Instead of this in `HTML`:
 <li> Many online platforms adapted Markdown and are compatible with most of its' functions in some way or another. </li>
 </ul>
 ```
-So, you could only imagine how much time and effort you can save when you're creating an actual piece of serious work.
+So, you could only imagine how much time and effort you could save when you're doing actual work.
 
 <br>
 
@@ -49,7 +49,7 @@ Document and organize your ~~past~~ ***present work*** information!
 
 ## Can I use Markdown Syntax all the time?
 
-Note that Markdown Syntax can not fully replace a complete language such as HTML, but it makes your work much fun and easier where it is applicable, should you use it to format and convey your work information accurately.
++ Note that `Markdown Syntax` can not fully replace a complete language such as `HTML`, but it makes your work much more fun and easier where it is applicable, ***should you use it to format and convey your work information accurately.***
 
 <br>
 
