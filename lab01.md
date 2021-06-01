@@ -1,3 +1,7 @@
+[Home](README.md)
+
+<br>
+
 # Summary of [How you can benefit from a growth mindset](https://www.atlassian.com/blog/inside-atlassian/growth-mindset)
 <br>
 

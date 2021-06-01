@@ -41,7 +41,15 @@ Working with Git is absolutely easy, even without using `Git GUI`. You just need
   - Use `git pull` to update your `Local Machine` version with any modifications added on GitHub.
 
   - Use `git status` to check the status of your files.
-
+   ```
    `[main !] means that some modification was applied but not commited.` 
   
    `[main *] means that some modification was commited but not yet pushed.`
+   ```
+   - Use `git remote -v` to list the URLs of repositories you're working on in addition to their corresponding *hosts* names.
+   - Use `git remote rename` followed by the current shortname and the new name to rename *the host* shortname, in this format:
+   > git remote rename **old new**
+   - Use `git remote add` and `git remote rm` too add/remove remote names (*hosts*). Use this format:
+   > git remote add **newname**
+
+   > git remote rm **oldname**
