@@ -30,4 +30,4 @@
 **Home Page**                  |  [***Home***](README.md)
 **Summary of Growth Mindset**  |  [***Growth Mindset***](lab01.md)
 **Markdown Blog Post**         |  [***Markdown Syntax***](read01.md)
-**Git Blog Post**              |  [***Abou Git***](read02.md)
+**Git Blog Post**              |  [***About Git***](read02.md)

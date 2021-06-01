@@ -18,7 +18,7 @@ The main reason to use Git is to keep and work with all versions of your work, a
 
 <br>
 
-- ## Why Should I use Git?
+- ## Why Should I Use Git?
 In addition to having constant back-ups for your work, Git allows you to keep track of your it at all stages, in both solo and team based projects. You can work offline, and publish your work when it's ready to be shared, recieve and share contributions at any stage and time in team projects, and have the ability ro revert changes at any given time.
 
 <br>
