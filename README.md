@@ -1,16 +1,33 @@
-# Summary of [How you can benefit from a growth mindset](https://www.atlassian.com/blog/inside-atlassian/growth-mindset)
+# Reading-Notes
+
 <br>
 
-`Growth mindset is not anything physical, yet it is something that governs how will things turn with your life. It is about constant self-improvement and development, looking at the larger image, and staying in check with your goals and aspirations at all times. It is orienting one's thoughts to stay positive and productive at all times and conditions.`
+## Creator's Introduction:
+
+- I'm Mohammed Al-Hanbali, a 25 yo Jordanian holding a degree in Architectural Engineering.
+ I'm looking forward towards learning coding properly and proficiently enough to implement everything within my field.
+
 <br>
 
-### One can always *re-check* with themselves to keep their mindsets in check whenever they're in doubt or feeling like they're not performing as they would like and expect.
+[Visit My GitHub Profile Here!](https://github.com/Moha-AlHanbali)
+
 <br>
 
-- > They can **review each day's accomplishments and shortcomings**, then try to find what and when did things go wrong and work on fixing it instead of contemplating the past.
+## About This Website:
 
-- > They **shouldn't compare their shortcomings to others' success**, instead, they have to look at it as a learning and growth opportunities.
+<br>
 
-- > They need to **push themselves to stay positive** no matter what the circumstances and stay focused on their main goal.
+- This website is concerened with publishing ASAC code 102 labs and assignments.
 
-![Growth Mindset Image](https://i1.wp.com/atlassianblog.wpengine.com/wp-content/uploads/2015/11/growth-mindset.png?w=1101&ssl=1)
+<br>
+
+## TOC
+
+<br>
+
+**Topic**                      |   **WebPage**
+-------------------------------|-------------------------------
+**Home Page**                  |  [***Home***](README.md)
+**Summary of Growth Mindset**  |  [***Growth Mindset***](lab01.md)
+**Markdown Blog Post**         |  [***Markdown Syntax***](read01.md)
+**Git Blog Post**              |  [*** ***](read02.md)
