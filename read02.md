@@ -37,8 +37,11 @@ Working with Git is absolutely easy, even without using `Git GUI`. You just need
 
 - ## Tips and Troubleshooting
   - Use `git stash` to keep your changes and modifications hidden as a draft, and use `git stash apply` to retrieve them.
+
+  - Use `git pull` to update your `Local Machine` version with any modifications added on GitHub.
+
   - Use `git status` to check the status of your files.
 
-  `[main !] means that some modification was applied but not commited` 
+   `[main !] means that some modification was applied but not commited.` 
   
-  `[main *] means that some modification was commited but not yet pushed`
+   `[main *] means that some modification was commited but not yet pushed.`

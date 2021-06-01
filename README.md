@@ -17,7 +17,7 @@
 
 <br>
 
-- This website is concerened with publishing ASAC code 102 labs and assignments.
+- This website is concerned with publishing ASAC code 102 labs and assignments.
 
 <br>
 
@@ -30,4 +30,4 @@
 **Home Page**                  |  [***Home***](README.md)
 **Summary of Growth Mindset**  |  [***Growth Mindset***](lab01.md)
 **Markdown Blog Post**         |  [***Markdown Syntax***](read01.md)
-**Git Blog Post**              |  [*** ***](read02.md)
+**Git Blog Post**              |  [***Abou Git***](read02.md)
