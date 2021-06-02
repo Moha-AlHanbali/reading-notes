@@ -31,3 +31,5 @@
 **Summary of Growth Mindset** *(lab01)*    |  [***Growth Mindset***](lab01.md)
 **Markdown Blog Post** *(read01)*          |  [***Markdown Syntax***](read01.md)
 **Git Blog Post** *(read02)*               |  [***About Git***](read02.md)
+**HTML Structure Blog Post** *(read03)*    |  [***Structuring HTML WebPages***](read03.md)
+**CSS Blog Post** *(read04)*               |  [***Introducing CSS***](read04.md)
