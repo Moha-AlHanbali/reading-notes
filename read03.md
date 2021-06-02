@@ -26,7 +26,11 @@
  ``` 
  <b> Your Text Here </b>
  ```
+
  Where `<b>` and `</b>` are *opening and closing tags* in order, enclosing your text, which is named "*content*". The whole block is called an "*element*". In this specific case, the outcome result will render the text in bold. 
+
+ Where `<b>` and `</b>` are *opening and closing tags* in order, enclosing your text, which is named "*content*". The whole block is called an "*element*". In this specific case, the outcome result will render the text in bold. `
+
 
  **Your Text Here**
 
@@ -67,20 +71,4 @@
 
 <br>
 
-- You may insert an image in this format:
 
- ```<img src="*Image source*">```
-
- <br>
-
- - Use list tags to list items, `<ol>` for ordered lists, `<ul>` for unordered lists, and enclose your listed items with `<il>` tags.
-
- - Add hyperlinks to your webpage using Anchor tag `<a>` in the following format:
- ```
-<a href="Your URL Here"> Hyper Text Here </a>
- ```
-<br>
-
- ## HTML Semantics 
-- Some tags give their content a specific meanings that are universally acknowledged, and identified in browsers by default.
- - This could make the content the main heading using `<h1>` tags, or it could be invisible to the user like `<nav>` tag that depicts the navigational bar elements in the header.
