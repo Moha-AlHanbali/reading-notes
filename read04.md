@@ -16,6 +16,7 @@
 - There are three ways to implement `CSS` into `HTML` document:
 
 1. Inline `CSS`, where you type `CSS Syntax` within `HTML` tag, in a similar format:
+
 ```
 <p style="color:red;"> Your Stylized Text Here </p>
 ```
@@ -23,6 +24,7 @@
 <br>
 
 2. Internal `CSS`, where you type `CSS Syntax` inside `HTML` documents, as follows:
+
 ```
 <style>
 p{
