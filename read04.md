@@ -13,9 +13,11 @@
 <br>
 
 ## How to use CSS
-- There are three ways to implement `CSS` into `HTML` document:
+There are three ways to implement `CSS` into `HTML` document:
 
-1. Inline `CSS`, where you type `CSS Syntax` within `HTML` tag, in a similar format:
+<br>
+
+- Inline `CSS`, where you type `CSS Syntax` within `HTML` tag, in a similar format:
 
 ```
 <p style="color:red;"> Your Stylized Text Here </p>
@@ -23,7 +25,7 @@
 
 <br>
 
-2. Internal `CSS`, where you type `CSS Syntax` inside `HTML` documents, as follows:
+- Internal `CSS`, where you type `CSS Syntax` inside `HTML` documents, as follows:
 
 ```
 <style>
@@ -35,7 +37,7 @@ p{
 
 <br>
 
-3. External `CSS`, where you link `CSS` files to your `HTML` document, and basically works like `Internal CSS`, but in its' own environment.
+- External `CSS`, where you link `CSS` files to your `HTML` document, and basically works like `Internal CSS`, but in its' own environment.
 
 ```
 p{
