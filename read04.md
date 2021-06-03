@@ -54,7 +54,7 @@ The results of all the previous three methods should render the same output:
 - `RGB`Color code, which stands for `RED, GREEN, and BLUE` color ratios in order, and used in this format.
 
 ```
-<h2 style="color:rgb(100,100,100)";> YOUR COLORED TEXT HERE </h>
+<h2 style="color:rgb(100,100,100);"> YOUR COLORED TEXT HERE </h2>
 ```
 
 <br>
@@ -62,7 +62,7 @@ The results of all the previous three methods should render the same output:
 - `RGBA` Color code, which stands for `RED, GREEN, BLUE, and Alpha Channel`, it's different from `RGB` where using this code, you can control transparency using `Alpha Channel`.
 
 ```
-<h2 style="color:rgba(100,100,100,0.50)";> YOUR COLORED TEXT HERE </h>
+<h2 style="color:rgba(100,100,100,0.50);"> YOUR COLORED TEXT HERE </h2>
 ```
 
 <br>
@@ -70,7 +70,7 @@ The results of all the previous three methods should render the same output:
 - `HEX` Color code, where every pair of digits represents the values of colors `RED, GREEN, and BLUE` in order in the following format:
 
 ```
-<h2 style="color:#000000";> YOUR COLORED TEXT HERE </h>
+<h2 style="color:#000000;"> YOUR COLORED TEXT HERE </h2>
 ```
 
 <br>
@@ -78,4 +78,4 @@ The results of all the previous three methods should render the same output:
 - `HSL` Color code, where `HUE, SATURATION, AND LIGHTNESS` are represented in order, in such a format `0-360,0-100%, 0-100%`
 
 ```
-<h2 style="color:hsl(50,10%,10%)";> YOUR COLORED TEXT HERE </h>
+<h2 style="color:hsl(50,10%,10%);"> YOUR COLORED TEXT HERE </h2>
