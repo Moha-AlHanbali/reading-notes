@@ -161,6 +161,18 @@ super.functionOnParent([arguments]);`
   statement`
  ```
 
+  ```
+  for (let x = 10; x > 5; x--) {
+   console.log(x);
+   }
+  
+  Console output will be:
+  > 10
+  > 9
+  > 8
+  > 7
+  > 6  
+  ```
 <br>
 
 ### `do...while` statement
@@ -180,6 +192,23 @@ super.functionOnParent([arguments]);`
  while (condition)
   statement
  ```
+
+ ```
+ let x = 10
+
+ while (x > 5) {
+  x--;
+  console.log(x);
+  }
+
+  Console output will be:
+  > 9
+  > 8
+  > 7
+  > 6
+  > 5
+ ```
+
 <br>
 
 ### `labeled` statement
@@ -189,6 +218,7 @@ super.functionOnParent([arguments]);`
  label :
    statement
  ```
+
 <br>
 
 ### `break` statement
