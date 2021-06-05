@@ -25,12 +25,14 @@
 
 <br>
 
-**Topic**                                  |   **WebPage**
--------------------------------------------|----------------------------------------
-**Home Page**                              |  [***Home***](README.md)
-**Summary of Growth Mindset** *(lab01)*    |  [***Growth Mindset***](lab01.md)
-**Markdown Blog Post** *(read01)*          |  [***Markdown Syntax***](read01.md)
-**Git Blog Post** *(read02)*               |  [***About Git***](read02.md)
-**HTML Structure Blog Post** *(read03)*    |  [***Structuring HTML WebPages***](read03.md)
-**CSS Blog Post** *(read04)*               |  [***Introducing CSS***](read04.md)
-**Javascript Blog Post** *(read06)*        |  [***Implementing Javascript***](read06.md)
+**Topic**                                         |   **WebPage**
+--------------------------------------------------|--------------------------------------------------
+**Home Page**                                     |  [***Home***](README.md)
+**Summary of Growth Mindset** *(lab01)*           |  [***Growth Mindset***](lab01.md)
+**Markdown Blog Post** *(read01)*                 |  [***Markdown Syntax***](read01.md)
+**Git Blog Post** *(read02)*                      |  [***About Git***](read02.md)
+**HTML Structure Blog Post** *(read03)*           |  [***Structuring HTML WebPages***](read03.md)
+**CSS Blog Post** *(read04)*                      |  [***Introducing CSS***](read04.md)
+**Javascript Blog Post** *(read06)*               |  [***Implementing Javascript***](read06.md)
+**Javascript Programming Blog Post** *(read07)*   |  [***A Step Into Javascript***](read07.md)
+** ** *(read08)*                                  |  [*** ***](read08.md)

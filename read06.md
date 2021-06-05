@@ -22,7 +22,7 @@
 - `JavaScript` is mainly responsible for making your Web pages responsive, meaning optimizing `HTML` and `CSS` to adjust best to the users` requirements.
 
 ## JavaScript language nature
-- As meentioned, `JavaScript` is an interpreted language, meaning the code will run from top to bottom, line by line in order as soon as it is encountered by the browser.
+- As mentioned, `JavaScript` is an interpreted language, meaning the code will run from top to bottom, line by line in order as soon as it is encountered by the browser.
 
 ## Integrating JavaScript into HTML Web pages
 There are three ways to use `JavaScript code` in `HTML` document, just like `CSS`.
@@ -108,7 +108,7 @@ This will allocate place in memory for a variable called `name` and assign the v
 If(condition){
   OPERATION CODE GOES HERE
 } else {
-  IF THE CONDITION IS VOIDED YoU CAN ADD CODE HERE TO PROCEED WITH IT
+  IF THE CONDITION IS VOIDED YOU CAN ADD CODE HERE TO PROCEED WITH IT
 } 
 
 ```
