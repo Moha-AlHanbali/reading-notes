@@ -35,4 +35,4 @@
 **CSS Blog Post** *(read04)*                      |  [***Introducing CSS***](read04.md)
 **Javascript Blog Post** *(read06)*               |  [***Implementing Javascript***](read06.md)
 **Javascript Programming Blog Post** *(read07)*   |  [***A Step Into Javascript***](read07.md)
-** ** *(read08)*                                  |  [*** ***](read08.md)
+**Javascript Loops Blog Post** *(read08)*         |  [***Javascript Loops***](read08.md)
