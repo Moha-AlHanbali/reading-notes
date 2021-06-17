@@ -52,7 +52,7 @@
 **Topic**                                         |   **WebPage**
 --------------------------------------------------|--------------------------------------------------
 **Home Page**                                     |  [***Home***](README.md)
-**Readings from Jon Duckett's books ** *(read01)* |  [*** Introductory HTML and JavaScript ***](class-01.md)
+**Readings from Jon Duckett's books** *(read01)*  |  [*** Introductory HTML and JavaScript ***](class-01.md)
 ** ** *(read02)*                                  |  [*** ***](.md)
 ** ** *(read03)*                                  |  [*** ***](.md)
 ** ** *(read04)*                                  |  [*** ***](.md)
