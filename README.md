@@ -53,7 +53,7 @@
 --------------------------------------------------|--------------------------------------------------
 **Home Page**                                     |  [***Home***](README.md)
 **Readings from Jon Duckett's books** *(read01)*  |  [***Introductory HTML and JavaScript***](class-01.md)
-** ** *(read02)*                                  |  [*** ***](.md)
+**Basics of HTML, CSS & JS - Jon Duckett's** *(read02)* |  [***Basics of HTML, CSS & JS***](class-02.md)
 ** ** *(read03)*                                  |  [*** ***](.md)
 ** ** *(read04)*                                  |  [*** ***](.md)
 ** ** *(read05)*                                  |  [*** ***](.md)
