@@ -2,7 +2,7 @@
 
 <br>
 
-# Introductory Readings from Jon Duckett's books
+# Introductory Readings - from Jon Duckett's books
 
 <br>
 
