@@ -34,7 +34,7 @@ Tag                                                        | Purpose
 
 
 
-### HTML Chapter 10: Introducing CSS
+### CSS Chapter 10: Introducing CSS
 
 <br>
 

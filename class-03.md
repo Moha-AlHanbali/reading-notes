@@ -98,7 +98,7 @@ Item 3
 
 <br>
 
-### HTML Chapter 13: Boxes
+### CSS Chapter 13: Boxes
 
 <br>
 

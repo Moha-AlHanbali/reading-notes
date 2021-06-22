@@ -55,7 +55,7 @@
 **Readings from Jon Duckett's books** *(read01)*  |  [***Introductory HTML and JavaScript***](class-01.md)
 **Basics of HTML, CSS & JS - Jon Duckett's** *(read02)* |  [***Basics of HTML, CSS & JS***](class-02.md)
 **HTML Lists, Control Flow with JS, and the CSS Box Model** *(read03)* |  [***Lists, Control Flow, and the Box Model***](class-03.md)
-** ** *(read04)*                                  |  [*** ***](.md)
+**HTML Links, JS Functions, and Intro to CSS Layout** *(read04)* |  [***Links, Functions, and Intro to Layout***](class-04.md)
 ** ** *(read05)*                                  |  [*** ***](.md)
 ** ** *(read06)*                                  |  [*** ***](.md)
 ** ** *(read07)*                                  |  [*** ***](.md)
