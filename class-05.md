@@ -2,7 +2,7 @@
 
 <br>
 
-# HTML Links, JS Functions, and Intro to CSS Layout - from Jon Duckett's books
+# HTML Images; CSS Color & Text - from Jon Duckett's books
 
 <br>
 
@@ -155,3 +155,40 @@ Space                                   | [~=] Matches a specific attribute whos
 Prefix                                  | [^=] Matches a specific attribute whose value begins with a specific string `p[attr^"d"]`
 Substring                               | [*=] Matches a specific attribute whose value contains a specific substring `p[attr*"do"]`
 Suffix                                  | [$=] Matches a specific attribute whose value ends with a specific string `p[attr$"g"]`
+
+<br>
+
+## Readings from [JPEG vs PNG vs GIF](https://blog.imagekit.io/jpeg-vs-png-vs-gif-which-image-format-to-use-and-when-c8913ae3e01d)
+
+<br>
+
+#### Which image format to use and when?
+
+<br>
+
+- JPEG
+  - Use for all images that contain a natural scene or photograph where variation in colour and intensity is smooth.
+  - Is a lossy compression specification that takes advantage of human perception.
+  - JPEG compression works by averaging out colours of nearby pixels.
+  - If an image contains text or lines, where a sharp contrast between adjacent pixels is desired to highlight the proper shape, this lossy compression technique does not yield good results.
+  - JPEG images don’t support transparency and are hence not usable for such cases.
+  - JPEG images can support around 16 million colours.
+
+<br>
+
+- PNG
+  - Use PNG format for any image that needs transparency or for images with text & objects with sharp contrast edges like logos.
+  - PNG is a lossless image format. No data is lost during compression and no compression artefacts are introduced in the image. 
+  - PNG image would retain higher quality than an image than JPEG and would look a lot sharper, it would also occupy more space on the disk.
+  - Unsuitable for storing or transferring high-resolution digital photographs but a great choice for images with text, logos and shapes with sharp edges.
+  - PNG images support transparency in two ways — inserting an alpha channel that allows partial transparency or by declaring a single colour as transparent.
+  - PNG images mainly have two modes — PNG8 and PNG24. PNG8 can support upto 256 colours whereas PNG24 can handle upto 16 million colours like a JPEG image.
+
+<br>
+
+- GIF
+  - Use for images that contain animations.
+  - GIF is also a lossless image format. It was favoured over PNG for simple graphics in websites in its early days.
+  - GIF images support transparency by declaring a single colour in the colour palette as transparent.
+  - GIF images are limited to 256 colours.
+  - Of these 3 formats, only GIF supports animation.

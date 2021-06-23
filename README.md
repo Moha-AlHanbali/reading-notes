@@ -56,7 +56,7 @@
 **Basics of HTML, CSS & JS - Jon Duckett's** *(read02)* |  [***Basics of HTML, CSS & JS***](class-02.md)
 **HTML Lists, Control Flow with JS, and the CSS Box Model** *(read03)* |  [***Lists, Control Flow, and the Box Model***](class-03.md)
 **HTML Links, JS Functions, and Intro to CSS Layout** *(read04)* |  [***Links, Functions, and Intro to Layout***](class-04.md)
-** ** *(read05)*                                  |  [*** ***](.md)
+**HTML Images; CSS Color & Text; and Image Formats** *(read05)* |  [***Images; Color & Text***](class-05.md)
 ** ** *(read06)*                                  |  [*** ***](.md)
 ** ** *(read07)*                                  |  [*** ***](.md)
 ** ** *(read08)*                                  |  [*** ***](.md)
