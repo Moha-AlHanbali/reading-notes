@@ -108,6 +108,8 @@ var variable2 = object.method();
 
 ![Body of HTML Page](imgs/BODY_OF_HTML_PAGE.PNG)
 
+![Dom Tree](imgs/DOM_TREE.PNG)
+
 - The Document Node
   - Every element, attribute, and piece of text in the HTML is represented by its own DOM node.
   - At the top of the tree a document node is added; it represents the entire page.
@@ -129,8 +131,6 @@ var variable2 = object.method();
 
 <br>
 
-![Dom Tree](imgs/DOM_TREE.PNG)
-
 - Attribute Nodes
   - The opening tags of HTML elements can carry attributes and these are represented by attribute nodes in the DOM tree.
 - Attribute nodes are not children of the element thar carries them; they are part of that element.
@@ -141,4 +141,44 @@ var variable2 = object.method();
 - Text Nodes
   - Once you have accessed an element node, you can then reach the text within that element. This is stored in its own text node.
   - Text nodes cannot have children. If an element contains text and another child element, the child element is not a child of the text node but rather a child of the containing element.
+
+<br>
+
+#### Working with DOM Tree
+
+- Accessing and updating the DOM tree involves two steps:
+  - Locate the node that represents the element you want to work with.
+  - Use its text content, child elements, and attributes.
+
+<br>
+
+- To select an indivisual element node
+  - Use `get ElementByld ()`, `querySelector ()`, or select individual elements by traversing from one element to another within the DOM tree.
+
+- To select multiple elements (nodelists)
+  - Use `getElementsByClassName()`, `getElementsByTagName()` or `querySelectorAll()`.
+
+- To traverse between element nodes
+  - Use `parentNode`, `previousSibling / nextSibling`, or `firstChild / lastChild`.
+
+<br>
+
+- Access/Update text content.
+  - Using `nodeValue`.
+
+- Work with HTML Content.
+  - Use `innerHTML`, `create Element()`, `createTextNode()`, or `appendChi l d () / removeChi l d ()`.
+
+- Access/Update attribute values.
+  - Use `className /id`, or `hasAttr i bute(), getAttribute(), setAttri bute(), removeAttribute()`.
+
+<br>
+
+#### Caching DOM Queries
+
+> Methods that find DOM in the DOM Tree are called DOM Queries.
+
+- Use a variable to store this query if you want to re-use it.
+- Storing elements in variables mean to store the element's location inside DOM Tree into the variable.
+
 
