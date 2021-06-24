@@ -2,7 +2,7 @@
 
 <br>
 
-# HTML Images; CSS Color & Text - from Jon Duckett's books
+# JS Problem Domain, Objects, and the DOM - from Jon Duckett's books
 
 <br>
 
