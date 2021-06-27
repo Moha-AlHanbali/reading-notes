@@ -78,7 +78,7 @@ var object{
     check: key,
 
     // methods:
-    methodname function(){
+    methodname= function(){
         code
    }
 };
