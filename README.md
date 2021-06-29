@@ -60,7 +60,7 @@
 **JS Problem Domain, Objects, and the DOM** *(read06)*                   |  [***Object Literals; The DOM***](class-06.md)
 **Object-Oriented Programming, HTML Tables** *(read07)*                  |  [***Object-Oriented Programming, Tables***](class-07.md)
 **CSS Layout** *(read08)*                                                |  [***CSS Layout***](class-08.md)
-** ** *(read09)*                                                         |  [*** ***](.md)
+**Forms and JS Events** *(read09)*                                       |  [***Forms and Events***](class-09.md)
 ** ** *(read10)*                                                         |  [*** ***](.md)
 ** ** *(read11)*                                                         |  [*** ***](.md)
 ** ** *(read12)*                                                         |  [*** ***](.md)
