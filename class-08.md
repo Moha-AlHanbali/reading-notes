@@ -2,7 +2,7 @@
 
 <br>
 
-# HTML Links, JS Functions, and Intro to CSS Layout - from Jon Duckett's books
+# CSS Layout - from Jon Duckett's books
 
 <br>
 
