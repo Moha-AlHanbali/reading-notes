@@ -251,11 +251,15 @@ your site.
 
    > By attaching an event listener to a containing element, you are only responding to one element (rather than having an event handler for each child element).
 
+<br>
+
   #### Changing default behavior
 
 > The event object has methods that change: the default behavior of an element and how the element's ancestors respond to the event.
 
  - Use `preventDefault()`and `stopPropagation()`.
+
+<br>
 
  #### Responding to different events
 
