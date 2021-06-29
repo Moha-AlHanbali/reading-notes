@@ -49,21 +49,21 @@
 
 ### ToC
 
-**Topic**                                         |   **WebPage**
---------------------------------------------------|--------------------------------------------------
-**Home Page**                                     |  [***Home***](README.md)
-**Readings from Jon Duckett's books** *(read01)*  |  [***Introductory HTML and JavaScript***](class-01.md)
-**Basics of HTML, CSS & JS** *(read02)*           |  [***HTML, CSS & JS***](class-02.md)
-**HTML Lists, Control Flow with JS, and the CSS Box Model** *(read03)* |  [***Lists, Control Flow, and the Box Model***](class-03.md)
-**HTML Links, JS Functions, and Intro to CSS Layout** *(read04)* |  [***Links, Functions, and Intro to Layout***](class-04.md)
-**HTML Images; CSS Color & Text; and Image Formats** *(read05)* |  [***Images; Color & Text***](class-05.md)
-**JS Problem Domain, Objects, and the DOM** *(read06)* |  [***Object Literals; The DOM***](class-06.md)
-**Object-Oriented Programming, HTML Tables** *(read07)* |  [***Object-Oriented Programming, Tables***](class-07.md)
-** ** *(read08)*                                  |  [*** ***](.md)
-** ** *(read09)*                                  |  [*** ***](.md)
-** ** *(read10)*                                  |  [*** ***](.md)
-** ** *(read11)*                                  |  [*** ***](.md)
-** ** *(read12)*                                  |  [*** ***](.md)
-** ** *(read13)*                                  |  [*** ***](.md)
-** ** *(read14)*                                  |  [*** ***](.md)
-** ** *(read15)*                                  |  [*** ***](.md)
+**Topic**                                                                |   **WebPage**
+-------------------------------------------------------------------------|--------------------------------------------------
+**Home Page**                                                            |  [***Home***](README.md)
+**Readings from Jon Duckett's books** *(read01)*                         |  [***Introductory HTML and JavaScript***](class-01.md)
+**Basics of HTML, CSS & JS** *(read02)*                                  |  [***HTML, CSS & JS***](class-02.md)
+**HTML Lists, Control Flow with JS, and the CSS Box Model** *(read03)*   |  [***Lists, Control Flow, and the Box Model***](class-03.md)
+**HTML Links, JS Functions, and Intro to CSS Layout** *(read04)*         |  [***Links, Functions, and Intro to Layout***](class-04.md)
+**HTML Images; CSS Color & Text; and Image Formats** *(read05)*          |  [***Images; Color & Text***](class-05.md)
+**JS Problem Domain, Objects, and the DOM** *(read06)*                   |  [***Object Literals; The DOM***](class-06.md)
+**Object-Oriented Programming, HTML Tables** *(read07)*                  |  [***Object-Oriented Programming, Tables***](class-07.md)
+**CSS Layout** *(read08)*                                                |  [***CSS Layout***](class-08.md)
+** ** *(read09)*                                                         |  [*** ***](.md)
+** ** *(read10)*                                                         |  [*** ***](.md)
+** ** *(read11)*                                                         |  [*** ***](.md)
+** ** *(read12)*                                                         |  [*** ***](.md)
+** ** *(read13)*                                                         |  [*** ***](.md)
+** ** *(read14)*                                                         |  [*** ***](.md)
+** ** *(read15)*                                                         |  [*** ***](.md)
