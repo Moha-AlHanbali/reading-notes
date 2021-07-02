@@ -62,7 +62,7 @@
 **CSS Layout** *(read08)*                                                |  [***CSS Layout***](class-08.md)
 **Forms and JS Events** *(read09)*                                       |  [***Forms and Events***](class-09.md)
 **JS Debugging** *(read10)*                                              |  [***Debugging***](class-10.md)
-** ** *(read11)*                                                         |  [*** ***](.md)
+**Audio, Video, Images** *(read11)*                                      |  [***Assorted Topics***](class-11.md)
 ** ** *(read12)*                                                         |  [*** ***](.md)
 ** ** *(read13)*                                                         |  [*** ***](.md)
 ** ** *(read14)*                                                         |  [*** ***](.md)
