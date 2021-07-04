@@ -63,7 +63,7 @@
 **Forms and JS Events** *(read09)*                                       |  [***Forms and Events***](class-09.md)
 **JS Debugging** *(read10)*                                              |  [***Debugging***](class-10.md)
 **Audio, Video, Images** *(read11)*                                      |  [***Assorted Topics***](class-11.md)
-**Docs for the HTML <canvas> Element & Chart.js** *(read12)*             |  [***HTML <canvas> Element & Chart.js***](class-12.md)
+**Docs for the HTML `<canvas>` Element & Chart.js** *(read12)*             |  [***HTML `<canvas>` Element & Chart.js***](class-12.md)
 ** ** *(read13)*                                                         |  [*** ***](.md)
 ** ** *(read14)*                                                         |  [*** ***](.md)
 ** ** *(read15)*                                                         |  [*** ***](.md)
