@@ -2,7 +2,7 @@
 
 <br>
 
-# Docs for the HTML <canvas> Element & Chart.js
+# Docs for the HTML canvas Element & Chart.js
 
 <br>
 
@@ -18,7 +18,7 @@
 
 - First, you need to do is download [Chart.js.](https://github.com/nnnick/Chart.js).
 - Copy the Chart.min.js out of the unzipped folder and into the directory you’ll be working in.
-- Create a new html page and import the script 
+- Create a new html page and import the script.
 
 ```
 
@@ -83,22 +83,21 @@ var variable = {
 
 <br>
 
-### The <canvas> Element
-
+### The canvas Element
 
 <br>
 
-#### <canvas> Tag
+#### canvas Tag
 
-- `<canvas>` element has only two attributes, width and height. These are both optional and can also be set using DOM properties.
+- canvas element has only two attributes, width and height. These are both optional and can also be set using DOM properties.
 
-- The `<canvas>` element can be styled just like any normal image (margin, border, background…).
+- The canvas element can be styled just like any normal image (margin, border, background…).
 
-- Providing fallback content is very straightforward, just insert the alternate content inside the `<canvas>` element.
+- Providing fallback content is very straightforward, just insert the alternate content inside the canvas element.
 
-- As a consequence of the way fallback is provided, unlike the `<img>` element, the `<canvas>` element requires the closing tag `</canvas>`.
+- As a consequence of the way fallback is provided, unlike the `<img>` element, the canvas element requires the closing tag `</canvas>`.
 
-- The `<canvas>` element creates a fixed-size drawing surface that exposes one or more rendering contexts, which are used to create and manipulate the content shown.
+- The canvas element creates a fixed-size drawing surface that exposes one or more rendering contexts, which are used to create and manipulate the content shown.
 
 - Use `draw()` function to execut once the page finishes loading; this is done by listening for the load event.
 
@@ -108,7 +107,7 @@ var variable = {
 
 <br>
 
-### The <canvas> Environment
+### The canvas Environment
 
 <br>
 
@@ -122,7 +121,7 @@ var variable = {
 
 #### Drawing rectangles
 
-- `<canvas>` only supports two primitive shapes: rectangles and paths (lists of points connected by lines). All other shapes must be created by combining one or more paths. 
+- canvas only supports two primitive shapes: rectangles and paths (lists of points connected by lines). All other shapes must be created by combining one or more paths. 
 
 - There three functions draw rectangles on the canvas:
   - `fillRect(x, y, width, height)`, draws a filled rectangle.
@@ -193,7 +192,7 @@ var variable = {
 
 <br>
 
-### The <canvas> Styles
+### The canvas Styles
 
 <br>
 
@@ -252,7 +251,7 @@ var variable = {
 
 <br>
 
-#### Canvas fill rules
+#### canvas fill rules
 
 - When using fill (or clip and isPointInPath) you can optionally provide a fill rule algorithm by which to determine if a point is inside or outside a path and thus if it gets filled or not.
   - `nonzero` rule.
@@ -264,7 +263,7 @@ var variable = {
 
 <br>
 
-### <canvas> Text
+### canvas Text
 
 <br>
 
@@ -287,12 +286,3 @@ var variable = {
 #### Advanced text measurements
 
 - `measureText()`, returns a TextMetrics object containing the width, in pixels, that the specified text will be when drawn in the current text style.
-
-
-
-
-
-
-
-
-
