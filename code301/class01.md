@@ -222,6 +222,46 @@
 
 <br>
 
+### Conclusion
+
+<br>
+
+- What is a component?
+    - A component is a modular, portable, replaceable, and reusable set of well-defined functionality that encapsulates its implementation and exporting it as a higher-level interface. It is also a software object, intended to interact with other components, encapsulating certain functionality or a set of functionalities.
+
+- What are the charactistics of a component?
+    - Reusability
+    - Replaceable
+    - Not context specific
+    - Extensible
+    - Encapsulated
+    - Independent
+
+- What are the advantages of using component based architecture?
+    - Ease of deployment
+    - Reduced cost
+    - Ease of development
+    - Reusable
+    - Modification of technical complexity
+    - Reliability
+    - System maintenance and evolution
+    - Independent
+
+- What is props short for?
+    - “Props” is a special keyword in React, which stands for properties and is being used for passing data from one component to another.
+
+- How are props used in React?
+    - Define an attribute and its value(data).
+    - Pass it to child component(s) by using Props.
+    - Render the Props Data.
+
+- What is the flow of props?
+    - One Way Down, from Parent to Child.
+
+<br>
+
 ## Things I want to know more about
+
+<br>
 
 - What other kind of props can we use with React.
