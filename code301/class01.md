@@ -206,8 +206,6 @@
     return <p>{props.text}</p>; 
     };
 
-    Rendering multiple Props Objects:
-
     class ParentComponent extends Component {  
      render() {
         return (
@@ -221,3 +219,9 @@
     }
     }
     ```
+
+<br>
+
+## Things I want to know more about
+
+- What other kind of props can we use with React.
