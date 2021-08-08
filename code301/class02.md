@@ -24,10 +24,6 @@
 
 <br>
 
-![React_Component_Lifecycle_Events](/React_Component_Lifecycle_Events.png)
-
-<br>
-
 #### Mounting
 
 <br>
