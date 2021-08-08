@@ -24,7 +24,7 @@
 
 <br>
 
-![React_Component_Lifecycle_Events](imgs/React_Component_Lifecycle_Events.png)
+![React_Component_Lifecycle_Events](/imgs/React_Component_Lifecycle_Events.png)
 
 <br>
 
