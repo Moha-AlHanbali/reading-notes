@@ -2,7 +2,7 @@
 
 <br>
 
-# State and Props
+# Passing Functions as Props
 
 <br>
 
