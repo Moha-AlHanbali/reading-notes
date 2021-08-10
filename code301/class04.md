@@ -133,6 +133,7 @@
   - To yield the same results as if statement with shorter code.
 
 -  Rewrite the following statement using a ternary statement:
+
   ```
 
       if(x===y){
