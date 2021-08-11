@@ -79,6 +79,7 @@
 **React State and Props** *(read02)*                                        |  [***State and Props***](code301/class02.md)
 **React Passing Functions as Props** *(read03)*                             |  [***Passing Functions as Props***](code301/class03.md)
 **React and Forms** *(read04)*                                              |  [***React and Forms***](code301/class04.md)
+**React Putting it all together** *(read05)*                                |  [***Putting it all together***](code301/class05.md)
 
 <br>
 
