@@ -168,7 +168,7 @@
 
 <br>
 
-  #### How does pair programming work?
+#### How does pair programming work?
 
 <br>
 
@@ -187,19 +187,19 @@
   - Scanning for typos or bugs. 
   - Utilize their computer as a second screen to look up solutions and documentation.
   
+<br>
+
+#### Why pair program?
 
 <br>
 
-  #### Why pair program?
-
-<br>
 > Pair programming touches on all four skills: developers explain out loud what the code should do, listen to others’ guidance, read code that others have written, and write code themselves.
 
 <br>
 
 #### What does pair programming Offer?
  
- <br>
+<br>
 
 1. Greater efficiency
 2. Engaged collaboration
