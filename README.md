@@ -82,6 +82,7 @@
 **React Putting it all together** *(read05)*                                |  [***Putting it all together***](code301/class05.md)
 **Introduction to NODE.JS** *(read06)*                                      |  [***NODE.JS***](code301/class06.md)
 **REST** *(read07)*                                                         |  [***REST***](code301/class07.md)
+**APIs** *(read08)*                                                         |  [**APIs***](code301/class08.md)
 
 <br>
 
