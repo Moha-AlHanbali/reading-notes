@@ -83,6 +83,7 @@
 **Introduction to NODE.JS** *(read06)*                                      |  [***NODE.JS***](code301/class06.md)
 **REST** *(read07)*                                                         |  [***REST***](code301/class07.md)
 **APIs** *(read08)*                                                         |  [**APIs***](code301/class08.md)
+**FUNCTIONAL PROGRAMMING** *(read09)*                                       |  [***FUNCTIONAL PROGRAMMING***](code301/class09.md)
 
 <br>
 
