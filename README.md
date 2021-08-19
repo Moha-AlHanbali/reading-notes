@@ -85,6 +85,7 @@
 **APIs** *(read08)*                                                         |  [**APIs***](code301/class08.md)
 **FUNCTIONAL PROGRAMMING** *(read09)*                                       |  [***FUNCTIONAL PROGRAMMING***](code301/class09.md)
 **In memory storage** *(read10)*                                            |  [***In memory storage***](code301/class10.md)
+**Authentication** *(read11)*                                               |  [***Authentication***](code301/class11.md)
 
 <br>
 
