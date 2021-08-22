@@ -86,6 +86,7 @@
 **FUNCTIONAL PROGRAMMING** *(read09)*                                       |  [***FUNCTIONAL PROGRAMMING***](code301/class09.md)
 **In memory storage** *(read10)*                                            |  [***In memory storage***](code301/class10.md)
 **Authentication** *(read11)*                                               |  [***Authentication***](code301/class11.md)
+**Mongo and Mongoose** *(read12)*                                           |  [***Mongo and Mongoose***](code301/class12.md)
 
 <br>
 
