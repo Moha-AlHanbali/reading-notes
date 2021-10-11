@@ -101,3 +101,4 @@
 **Home Page**                                                               |  [***Home***](README.md)
 **Topic** *(read01)*                                                        |  [***Topic***](code401/class01.md)
 **Testing and Modules** *(read02)*                                          |  [***Testing and Modules***](code401/class02.md)
+**FileIO & Exceptions** *(read03)*                                          |  [***FileIO & Exceptions***](code401/class03.md)
