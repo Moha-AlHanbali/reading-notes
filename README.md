@@ -103,3 +103,4 @@
 **Testing and Modules** *(read02)*                                          |  [***Testing and Modules***](code401/class02.md)
 **FileIO & Exceptions** *(read03)*                                          |  [***FileIO & Exceptions***](code401/class03.md)
 **Classes and Objects** *(read04)*                                          |  [***Classes and Objects***](code401/class04.md)
+**Linked Lists** *(read05)*                                                 |  [***Linked Lists***](code401/class05.md)
