@@ -105,3 +105,5 @@
 **Classes and Objects** *(read04)*                                          |  [***Classes and Objects***](code401/class04.md)
 **Linked Lists** *(read05)*                                                 |  [***Linked Lists***](code401/class05.md)
 **Game of Greed 1** *(read06)*                                              |  [***Game of Greed 1***](code401/class06.md)
+**Game of Greed 2** *(read07)*                                              |  [***Game of Greed 2***](code401/class07.md)
+
