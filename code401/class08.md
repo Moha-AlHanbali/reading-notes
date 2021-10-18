@@ -10,7 +10,7 @@
 
 <br>
 
-> In order to keep your code elegant and readable, it’s recommended that you use Python’s comprehension features.
+> In order to keep your code elegant and readable, it's recommended that you use Python's comprehension features.
 
 > List comprehension is a powerful and concise method for creating lists in Python that becomes essential the more you work with lists, and lists of lists.
 
@@ -25,15 +25,15 @@
 <br>
 
 - Three ingredients are necessary for a python list comprehension to work.
-  - First is the expression we’d like to carry out (expression inside the square brackets).
+  - First is the expression we'd like to carry out (expression inside the square brackets).
   - Second is the object that the expression will work on (item inside the square brackets).
   - Finally, we need an iterable list of objects to build our new list from (list inside the square brackets).
 
 <br>
 
-> Imagine you’re going to perform an expression on each item in the list. The expression will determine what item is eventually stored in the output list. 
+> Imagine you're going to perform an expression on each item in the list. The expression will determine what item is eventually stored in the output list. 
 
-> Not only can you perform expressions on an entire list in a single line of code, but it’s possible to add conditional statements in the form of filters, which allows for more precision in the way lists are handled.
+> Not only can you perform expressions on an entire list in a single line of code, but it's possible to add conditional statements in the form of filters, which allows for more precision in the way lists are handled.
 
 <br>
 
@@ -158,7 +158,7 @@ print(letters)
 
 <br>
 
-- Changing a letter’s case
+- Changing a letter's case
 
 ```
 lower_case = [ letter.lower() for letter in ['A','B','C'] ]
@@ -266,4 +266,4 @@ print(nums)
 
 > Learning to make use of advanced features like list comprehension will save time and improve productivity. 
 
-> Not only will your colleagues thank you when your Python code is more concise and easier to read, but you’ll thank yourself when you come back to a program you haven’t worked on in months and the code is manageable.
+> Not only will your colleagues thank you when your Python code is more concise and easier to read, but you'll thank yourself when you come back to a program you haven't worked on in months and the code is manageable.
