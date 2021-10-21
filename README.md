@@ -109,6 +109,7 @@
 **Game of Greed 3** *(read08)*                                              |  [***Game of Greed 3***](code401/class08.md)
 **Game of Greed 4** *(read09)*                                              |  [***Game of Greed 4***](code401/class09.md)
 **Stacks and Queues** *(read10)*                                            |  [***Stacks and Queues**](code401/class10.md)
+**Data Analysis** *(read11)*                                                |  [***Data Analysis**](code401/class11.md)
 
 
 
