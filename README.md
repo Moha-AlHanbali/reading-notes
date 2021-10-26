@@ -112,6 +112,7 @@
 **Data Analysis** *(read11)*                                                |  [***Data Analysis***](code401/class11.md)
 **Pandas** *(read12)*                                                       |  [***Pandas***](code401/class12.md)
 **Linear Regressions** *(read13)*                                           |  [***Linear Regressions***](code401/class13.md)
+**Data Visualization** *(read14)*                                           |  [***Data Visualization***](code401/class14.md)
 
 
 
