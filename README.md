@@ -114,6 +114,7 @@
 **Linear Regressions** *(read13)*                                           |  [***Linear Regressions***](code401/class13.md)
 **Data Visualization** *(read14)*                                           |  [***Data Visualization***](code401/class14.md)
 **Trees** *(read15)*                                                        |  [***Trees***](code401/class15.md)
+**Machine Learning Intro** *(read16)*                                       |  [***Machine Learning Intro***](code401/class16.md)
 
 
 
