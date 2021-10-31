@@ -1,0 +1,348 @@
+[Home](README.md)
+
+<br>
+
+# Web Scraping
+
+<br>
+
+## Readings from [How to Web Scrape with Python in 4 Minutes](https://towardsdatascience.com/how-to-web-scrape-with-python-in-4-minutes-bc49186a8460)
+
+<br>
+
+### Overview
+
+<br>
+
+> Web scraping is a technique to automatically access and extract large amounts of information from a website, which can save a huge amount of time and effort.
+
+<br>
+
+### Scraping Data
+
+<br>
+
+> Download turnstile data from `http://web.mta.info/developers/turnstile.html`.
+
+> Turnstile data is compiled every week from May 2010 to present as txt files.
+
+> It would be torturous to manually right click on each link and save to your desktop.
+
+<br>
+
+- Important notes about web scraping:
+  - Read through the website’s Terms and Conditions to understand how you can legally use the data. Most sites prohibit you from using the data for commercial purposes.
+  - Make sure you are not downloading data at too rapid a rate because this may break the website. You may potentially be blocked from the site as well.
+
+<br>
+
+### Inspecting the Website
+
+<br>
+
+> The first thing that we need to do is to figure out where we can locate the links to the files we want to download inside the multiple levels of HTML tags.
+
+> On the website, right click and click on “Inspect”. This allows you to see the raw code behind the site.
+
+> Once you’ve clicked on “Inspect”, you should see this console pop up.
+
+> All the .txt files are inside the `<a>` tag following the line above.
+
+<br>
+
+### Python Code
+
+<br>
+
+> We start by importing the following libraries.
+
+```
+import requests
+import urllib.request
+import time
+from bs4 import BeautifulSoup
+```
+
+<br>
+
+> Next, we set the url to the website and access the site with our requests library.
+
+> `url = 'http://web.mta.info/developers/turnstile.html'`.
+
+> `response = requests.get(url)`.
+
+> Next we parse the html with BeautifulSoup so that we can work with a nicer, nested BeautifulSoup data structure.
+
+> `soup = BeautifulSoup(response.text, “html.parser”)`.
+
+> We use the method .findAll to locate all of our `<a>` tags.
+
+> `soup.findAll('a')`.
+
+> This code gives us every line of code that has an `<a>` tag.
+
+> `one_a_tag = soup.findAll(‘a’)[LINE NUMBER]`.
+
+> `link = one_a_tag[‘href’]`.
+
+> This code saves the first text file, ‘data/nyct/turnstile/turnstile_somethingsomething.txt’ to our variable link.
+
+> We can use our urllib.request library to download this file path to our computer.
+
+> We provide request.urlretrieve with two parameters: file url and the filename.
+
+> `download_url = 'http://web.mta.info/developers/'+ link`.
+
+> `urllib.request.urlretrieve(download_url,'./'+link[link.find('/turnstile_')+1:])`.
+
+> We should include this line of code so that we can pause our code for a second so that we are not spamming the website with requests. This helps us avoid getting flagged as a spammer.
+
+> `time.sleep(1)`.
+
+<br>
+
+## Readings from [Web scraping](https://en.wikipedia.org/wiki/Web_scraping)
+
+<br>
+
+### Overview
+
+<br>
+
+> Web scraping, web harvesting, or web data extraction is data scraping used for extracting data from websites.
+
+> The web scraping software may directly access the World Wide Web using the Hypertext Transfer Protocol or a web browser.
+> While web scraping can be done manually by a software user, the term typically refers to automated processes implemented using a bot or web crawler.
+
+> It is a form of copying in which specific data is gathered and copied from the web, typically into a central local database or spreadsheet, for later retrieval or analysis.
+
+> Web scraping a web page involves fetching it and extracting from it. Fetching is the downloading of a page (which a browser does when a user views a page).
+
+> Web crawling is a main component of web scraping, to fetch pages for later processing. 
+
+> Once fetched, then extraction can take place.
+
+<br>
+
+### Techniques
+
+<br>
+
+> Web scraping is the process of automatically mining data or collecting information from the World Wide Web.
+
+- Human copy-and-paste
+  - The simplest form of web scraping is manually copying and pasting data from a web page into a text file or spreadsheet.
+
+- Text pattern matching
+  - A simple yet powerful approach to extract information from web pages can be based on the UNIX grep command or regular expression-matching facilities of programming languages (for instance Perl or Python).
+
+- HTTP programming
+  - Static and dynamic web pages can be retrieved by posting HTTP requests to the remote web server using socket programming.
+
+- HTML parsing
+  - Many websites have large collections of pages generated dynamically from an underlying structured source like a database. Data of the same category are typically encoded into similar pages by a common script or template.
+
+- DOM parsing
+  - By embedding a full-fledged web browser, such as the Internet Explorer or the Mozilla browser control, programs can retrieve the dynamic content generated by client-side scripts. 
+
+- Vertical aggregation
+  - There are several companies that have developed vertical specific harvesting platforms. These platforms create and monitor a multitude of "bots" for specific verticals with no "man in the loop" (no direct human involvement), and no work related to a specific target site.
+
+- Semantic annotation recognizing
+  - The pages being scraped may embrace metadata or semantic markups and annotations, which can be used to locate specific data snippets. If the annotations are embedded in the pages, as Microformat does, this technique can be viewed as a special case of DOM parsing.
+
+- Computer vision web-page analysis
+  - There are efforts using machine learning and computer vision that attempt to identify and extract information from web pages by interpreting pages visually as a human being might.
+
+<br>
+
+## Readings from [How to Scrape Websites Without Getting Blocked](https://www.scrapehero.com/how-to-prevent-getting-blacklisted-while-scraping/)
+
+<br>
+
+### Respect Robots.txt
+
+<br>
+
+> If a crawler performs multiple requests per second and downloads large files, an under-powered server would have a hard time keeping up with requests from multiple crawlers.
+
+> Web spiders should ideally follow the `robot.txt` file for a website while scraping `http://example.com/robots.txt`.
+
+> If it contains `User-agent: *` or `Disallow:/`, it means the site doesn’t like and does not want to be scraped. 
+
+- Here are a few easy giveaways that you are bot/scraper/crawler –
+  - Scraping too fast and too many pages, faster than a human ever can
+  - Following the same pattern while crawling. For example – go through all pages of search results, and go to each result only after grabbing links to them. No human ever does that.
+  - Too many requests from the same IP address in a very short time
+  - Not identifying as a popular browser. You can do this by specifying a ‘User-Agent’.
+  - using a user agent string of a very old browser
+
+<br>
+
+### Make the crawling slowe
+
+<br>
+
+> Web scraping bots fetch data very fast, but it is easy for a site to detect your scraper, as humans cannot browse that fast. The faster you crawl, the worse it is for everyone.
+
+> If a website gets too many requests than it can handle it might become unresponsive.
+
+> Use auto throttling mechanisms which will automatically throttle the crawling speed based on the load on both the spider and the website that you are crawling. 
+
+<br>
+
+### Do not follow the same crawling pattern
+
+<br>
+
+> Humans generally will not perform repetitive tasks as they browse through a site with random actions.
+
+> Web scraping bots tend to have the same crawling pattern because they are programmed that way unless specified.
+
+> Sites that have intelligent anti-crawling mechanisms can easily detect spiders by finding patterns in their actions and can lead to web scraping getting blocked.
+
+<br>
+
+### Make requests through Proxies and rotate them as needed
+
+<br>
+
+> When scraping, your IP address can be seen.
+
+> A site will know what you are doing and if you are collecting data.
+
+> They could take data such as – user patterns or experience if they are first-time users.
+
+> Multiple requests coming from the same IP will lead you to get blocked, which is why we need to use multiple addresses. 
+
+> Create a pool of IPs that you can use and use random ones for each request.
+
+> Along with this, you have to spread a handful of requests across multiple IPs.
+
+<br>
+
+### Rotate User Agents and corresponding HTTP Request Headers between requests
+
+<br>
+
+> A user agent is a tool that tells the server which web browser is being used.
+
+> If the user agent is not set, websites won’t let you view content.
+
+> Every request made from a web browser contains a user-agent header and using the same user-agent consistently leads to the detection of a bot.
+
+> You can get your User-Agent by typing ‘what is my user agent’ in Google’s search bar.
+
+> The only way to make your User-Agent appear more real and bypass detection is to fake the user agent.
+
+> Most web scrapers do not have a User Agent by default, and you need to add that yourself.
+
+- It would be ideal to send these common request headers:
+  - User-Agent
+  - Accept
+  - Accept-Language
+  - Referer
+  - DNT
+  - Updgrade-Insecure-Requests
+  - Cache-Control
+
+> Do not send cookies unless your scraper depends on Cookies for functionality.
+
+<br>
+
+### Use a headless browse
+
+<br>
+
+> If none of the methods above works, the website must be checking if you are a REAL browser.
+
+> The simplest check is if the client (web browser) can render a block of JavaScript.
+
+> If it doesn’t, then it pretty much flags the visitor to be a bot.
+
+<br>
+
+> a real browser is necessary in most cases to scrape the data.
+
+- There are libraries to automatically control browsers such as:
+  - Selenium
+  - Puppeteer and Pyppeteer
+  - Playwright
+
+<br>
+
+- Bot detection tools look for any flags that can tell them that the browser is being controlled through an automation library:
+  - Presence of bot specific signatures
+  - Support for nonstandard browser features
+  - Presence of common automation tools such as Selenium, Puppeteer, Playwright, etc.
+  - Human-generated events such as randomized Mouse Movement, Clicks, Scrolls, Tab Changes etc.
+
+<br>
+
+### Beware of Honey Pot Traps
+
+<br>
+
+> Honeypots are systems set up to lure hackers and detect any hacking attempts that try to gain information.
+
+> It is usually an application that imitates the behavior of a real system. Some websites install honeypots, which are links invisible to normal users but can be seen by web scrapers.
+
+<br>
+
+### Check if Website is Changing Layouts
+
+<br>
+
+> Some websites make it tricky for scrapers, serving slightly different layouts.
+
+<br>
+
+### Avoid scraping data behind a login
+
+<br>
+
+> Login is basically permission to get access to web pages. Some websites like Indeed do not allow permission.
+
+> If a page is protected by login, the scraper would have to send some information or cookies along with each request to view the page.
+
+> This makes it easy for the target website to see requests coming from the same address.
+
+> They could take away your credentials or block your account which can, in turn, lead to your web scraping efforts being blocked.
+
+<br>
+
+### Use Captcha Solving Services
+
+<br>
+
+### How can websites detect and block web scraping?
+
+<br>
+
+- Websites can use different mechanisms to detect a scraper/spider from a normal user.
+  - Unusual traffic/high download rate.
+  - Repetitive tasks performed on the website in the same browsing pattern.
+  - Checking if you are real browser.
+  - Detection through honeypots.
+
+<br>
+
+### How do you find out if a website has blocked or banned you?
+
+<br>
+
+- If any of the following signs appear on the site that you are crawling, it is usually a sign of being blocked or banned.
+  - CAPTCHA pages
+  - Unusual content delivery delays
+  - Frequent response with HTTP 404, 301 or 50x errors
+
+<br>
+
+- Frequent appearance of these HTTP status codes is also indication of blocking
+  - 301 Moved Temporarily
+  - 401 Unauthorized
+  - 403 Forbidden
+  - 404 Not Found
+  - 408 Request Timeout
+  - 429 Too Many Requests
+  - 503 Service Unavailable
