@@ -116,6 +116,8 @@
 **Trees** *(read15)*                                                        |  [***Trees***](code401/class15.md)
 **Machine Learning Intro** *(read16)*                                       |  [***Machine Learning Intro***](code401/class16.md)
 **Web Scraping** *(read17)*                                                 |  [***Web Scraping***](code401/class17.md)
+**Cryptography** *(read18)*                                                 |  [***Cryptography***](code401/class18.md)
+
 
 
 
