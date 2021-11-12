@@ -179,11 +179,10 @@
   - Variables
     - A variable outputs a value from the context, which is a dict-like object mapping keys to values.
   - Tags
-    - Tags provide arbitrary logic in the rendering process `{% and %}`.
+    - Tags provide arbitrary logic in the rendering process.
   - Filters
-    - Filters transform the values of variables and tag arguments `{{ django|title }}`.
+    - Filters transform the values of variables and tag arguments.
   - Comments
-    - `{# this won't be rendered #}`.
 
 <br>
 
