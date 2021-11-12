@@ -177,7 +177,7 @@
 
 - Syntax
   - Variables
-    - A variable outputs a value from the context, which is a dict-like object mapping keys to values `{{ and }}`.
+    - A variable outputs a value from the context, which is a dict-like object mapping keys to values.
   - Tags
     - Tags provide arbitrary logic in the rendering process `{% and %}`.
   - Filters
