@@ -118,7 +118,7 @@
 **Web Scraping** *(read17)*                                                 |  [***Web Scraping***](code401/class17.md)
 **Cryptography** *(read18)*                                                 |  [***Cryptography***](code401/class18.md)
 **Automation** *(read19)*                                                   |  [***Automation***](code401/class19.md)
-
+**Intro to Django** *(read20)*                                              |  [***Intro to Django***](code401/class20.md)
 
 
 
