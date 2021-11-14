@@ -119,6 +119,7 @@
 **Cryptography** *(read18)*                                                 |  [***Cryptography***](code401/class18.md)
 **Automation** *(read19)*                                                   |  [***Automation***](code401/class19.md)
 **Intro to Django** *(read20)*                                              |  [***Intro to Django***](code401/class20.md)
+**Django Models** *(read21)*                                                |  [***Django Models***](code401/class21.md)
 
 
 
