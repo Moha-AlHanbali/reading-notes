@@ -123,7 +123,3 @@
 **Django CRUD and Forms** *(read22)*                                        |  [***Django CRUD and Forms***](code401/class22.md)
 **Django Custom User** *(read23)*                                           |  [***Django Custom User***](code401/class23.md)
 
-
-
-
-
