@@ -121,6 +121,7 @@
 **Intro to Django** *(read20)*                                              |  [***Intro to Django***](code401/class20.md)
 **Django Models** *(read21)*                                                |  [***Django Models***](code401/class21.md)
 **Django CRUD and Forms** *(read22)*                                        |  [***Django CRUD and Forms***](code401/class22.md)
+**Django Custom User** *(read23)*                                           |  [***Django Custom User***](code401/class23.md)
 
 
 
