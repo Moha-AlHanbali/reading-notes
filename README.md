@@ -122,4 +122,5 @@
 **Django Models** *(read21)*                                                |  [***Django Models***](code401/class21.md)
 **Django CRUD and Forms** *(read22)*                                        |  [***Django CRUD and Forms***](code401/class22.md)
 **Django Custom User** *(read23)*                                           |  [***Django Custom User***](code401/class23.md)
+**Hash Tables** *(read24)*                                                   |  [***Hash Tables***](code401/class24.md)
 
