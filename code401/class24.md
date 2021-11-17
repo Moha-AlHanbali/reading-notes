@@ -2,7 +2,7 @@
 
 <br>
 
-# Django Custom User
+# HashTables
 
 <br>
 
