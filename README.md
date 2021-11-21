@@ -124,3 +124,4 @@
 **Django Custom User** *(read29)*                                           |  [***Django Custom User***](code401/class29.md)
 **Hash Tables** *(read30)*                                                  |  [***Hash Tables***](code401/class30.md)
 **Django REST Framework & Docker** *(read31)*                               |  [***Django REST Framework & Docker***](code401/class31.md)
+**Permissions & Postgresql** *(read32)*                                     |  [***Permissions & Postgresql***](code401/class32.md)
