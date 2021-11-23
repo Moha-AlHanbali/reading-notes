@@ -126,3 +126,4 @@
 **Django REST Framework & Docker** *(read31)*                               |  [***Django REST Framework & Docker***](code401/class31.md)
 **Permissions & Postgresql** *(read32)*                                     |  [***Permissions & Postgresql***](code401/class32.md)
 **Authentication & Production Server** *(read33)*                           |  [***Authentication & Production Server***](code401/class33.md)
+**API Deployment** *(read34)*                                               |  [***API Deployment***](code401/class34.md)
