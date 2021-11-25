@@ -128,3 +128,4 @@
 **Authentication & Production Server** *(read33)*                           |  [***Authentication & Production Server***](code401/class33.md)
 **API Deployment** *(read34)*                                               |  [***API Deployment***](code401/class34.md)
 **Graphs** *(read35)*                                                       |  [***Graphs***](code401/class35.md)
+**DSA Review** *(read36)*                                                   |  [***DSA Review***](code401/class36.md)
