@@ -130,3 +130,4 @@
 **Graphs** *(read35)*                                                       |  [***Graphs***](code401/class35.md)
 **DSA Review** *(read36)*                                                   |  [***DSA Review***](code401/class36.md)
 **React 1** *(read37)*                                                      |  [***React 1***](code401/class37.md)
+**React 2** *(read38)*                                                      |  [***React 2***](code401/class38.md)
