@@ -133,3 +133,4 @@
 **React 2** *(read38)*                                                      |  [***React 2***](code401/class38.md)
 **React 3** *(read39)*                                                      |  [***React 3***](code401/class39.md)
 **React 4** *(read41)*                                                      |  [***React 4***](code401/class41.md)
+**Pythonisms** *(read42)*                                                   |  [***Pythonisms***](code401/class42.md)
