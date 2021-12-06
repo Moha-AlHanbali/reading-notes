@@ -135,3 +135,4 @@
 **React 4** *(read41)*                                                      |  [***React 4***](code401/class41.md)
 **Pythonisms** *(read42)*                                                   |  [***Pythonisms***](code401/class42.md)
 **Ethics** *(read42-b)*                                                     |  [***Ethics***](code401/class42-ethics.md)
+**OSS Contributions** *(read43)*                                            |  [***OSS Contributions***](code401/class43.md)
